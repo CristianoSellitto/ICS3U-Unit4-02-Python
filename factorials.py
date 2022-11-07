@@ -19,6 +19,8 @@ def main():
                 counter = counter + 1
             answer = integer * answer
             print("\n{0}! = {1}".format(integer, answer))
+        elif integer == 0:
+            print("\n0! = 1")
         else:
             print("\nError: {} is a negative integer.".format(integer))
     except ValueError:
